@@ -1,0 +1,127 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+/* navbar */
+
+header {
+  height: 7vh;
+  background-color: #262626;
+  filter: drop-shadow(0px 5px 10px #000);
+}
+
+nav {
+  text-align: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+li {
+  padding: 20px;
+  display: inline-block;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  opacity: 0.6;
+}
+
+a:hover {
+  opacity: 1;
+  transition: 0.5 ease-in;
+}
+
+/* main section */
+
+body {
+  background-color: gold;
+}
+
+section {
+  height: 90vh;
+  display: flex;
+  width: 80%;
+  position: relative;
+  margin: auto;
+}
+
+.txtform {
+    align-self: center;
+    flex: 2;
+  }
+
+.txtform h1 {
+    font-size: 50px;
+          padding: 30px 0px;
+}  
+  
+.txtform h3 {
+    font-size: 30px;
+}
+
+/* form */
+
+
+.submission-form {
+  align-self: center;
+  flex: 1;
+  max-width: 500px;
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.submission-form label {
+    display: block;
+    padding: 20px 0 10px;
+    font-size: 14px;
+}
+
+.submission-form textarea, .submission-form input {
+    display: block;
+    width: 100%;
+    border: 0;
+    filter: drop-shadow(0px 0px 3px rgb(209, 209, 209));
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#send-btn {
+    border: 0;
+    background-color: #262626;
+    color: white;
+    padding: 10px;
+    margin: 20px 0;
+    width: 100px;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#send-btn:hover {
+    background-color: gold;
+    color: #262626;
+}
+
+/* footer */
+
+footer {
+  height: 3vh;
+  background-color: #262626;
+  color: white;
+}
+
+footer h5 {
+  text-align: center;
+  padding: 5px;
+}
